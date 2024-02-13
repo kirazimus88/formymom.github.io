@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Valentine's Proposal</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Mainprompt">
+            <img class="image" src="images/catflower.jpg"></img>
+            <h1 class="hh" id="name">Привет!</h1>
+            <p class="pp" id="question">Кто самая лучшая семейная пара?</p>
+            <div class="buttons">
+                <button id="no-button" onclick="showMessage('Не знаю..')">Не знаю..</button>
+                <button onclick="showMessage('МЫ!')" id="yesButton">МЫ!</button>
+            </div>
+            <div class="hidden-message" id="no-message">
+                <p>ВСМЫСЛЕ НЕ ВЫ? А КТО? (эта кнопка для визуала)</p>
+            </div>
+            <div class="hidden-message" id="yes-message">
+                <p>КОНЕЧНО ЖЕ ЭТО ВЫ!</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
